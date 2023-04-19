@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #EEEEEE;
+}
+
+header {
+    width: 1582px;
+    height: 70px;
+    padding: 9px;
+    margin: -8px;
+    background-color: #BDBDBD;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#title {
+    margin-top: 3px;
+
+}
+
+.fa-user {
+    font-size: 29px;
+    margin-right: 10px;
+}
+
+.container {
+    width: 1450px;
+    height: 650px;
+    padding: 7.5px;
+    margin: 20px auto;
+    /* border: 2px solid black; */
+}
+
+.list {
+    width: 900px;
+    padding: 5px;
+    /* height: 360px; */
+    /* border: 2px solid blue; */
+    margin: 5px auto;
+}
+
+.userList {
+    width: 830px;
+    /* height: 350px; */
+    /* border: 1px solid red; */
+    margin: 2px auto;
+    list-style-type: none;
+    padding-top: 12.5px;
+}
+
+.item {
+    width: 800px;
+    height: 40px;
+    padding: 5px;
+    background-color: #FAFAFA;
+    border: 0.75px solid gray;
+    transition: 0.1s;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-right: 15px;
+    margin-left: -15px;
+}
+
+.item:hover {
+    background-color: #E0E0E0;
+    cursor: text;
+}
+
+.pagesSection {
+    width: 830px;
+    height: 145px;
+    padding: 3px;
+    margin: 20px auto;
+    text-align: center;
+    /* border: 1px solid green; */
+    text-align: center;
+}
+
+.pages {
+    width: 812.5px;
+    margin: 5px auto;
+    min-height: 125px;
+    padding: 5px;
+    /* border: 1px solid black; */
+    list-style-type: none;
+    text-align: center;
+}
+
+.pageNum {
+    width: 45px;
+    height: 32.5px;
+    padding: 5px;
+    padding-top: 12px;
+    background-color: #00B0FF;
+    /* float: left; */
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.pageNum:hover {
+    background-color: #0091EA;
+}
+
+.userPerPage {
+    width: 225px;
+    height: 70px;
+    margin: 20px;
+    padding: 5px;
+    margin-top: -600px;
+}
+
+.text {
+    display: inline-block;
+    font-size: 18px;
+}
+
+#UPP {
+    width: 60px;
+    height: 30px;
+    margin-left: 7.5px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+option {
+    width: 60px;
+    height: 30px;
+    border-radius: 8px;
+    padding: 2px;
+}
